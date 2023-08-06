@@ -43,10 +43,10 @@ export class Auther {
         return t
     }
 
-    get tokens() {
-        this._load()
-        return this.#tokens
-    }
+    // get tokens() {
+    //     this._load()
+    //     return this.#tokens
+    // }
 
     isAuthed(token) {
         this._load()
